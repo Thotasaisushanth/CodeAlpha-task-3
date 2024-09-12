@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0b0b0b;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.player {
+    text-align: center;
+    background-color: #f0f3f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(22, 26, 83, 0.1);
+}
+
+.album-art {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    color: rgb(18, 17, 17);
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #070708;
+}
+
+#info {
+    margin-top: 10px;
+}
